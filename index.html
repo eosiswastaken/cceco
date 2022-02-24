@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> CCECO+ DEV BUILD </title>
+		<link rel="stylesheet" href="index.css">
+  </head>
+	<body>
+		<div id="container">
+			<div id="info">
+				<span id="infobox">INFOBOX</span>
+			</div>
+
+			<div id="cookie">
+				<img id="cookieClick" draggable="false" class="selectDisable" src="oui2.png" width="210px" height="210px" onclick="moreCookies()">
+				<br><b><span id="cookieBots">  Bots : 0  <span></b>
+				<br><span id="display"> Cookies : 0 </span>
+				<br><span id="cookiesPerClick"> Cookies / click : 0 </span>
+				<br><span id="cookiesPerSecond"> Cookies / second : 0 </span>
+				<br>
+			</div>
+
+			<div id="help">
+        <h3>[ Cookie clicker ECO+ : Help ] <h5>v0.3.0</h5></h3>
+				<p> <h3>➤ What is this game? </h3>This game is an incremental game, your objective is to
+				  click the cookie to get cookies wich you'll use to get even more cookies
+				  via upgrades, and even even more until you reach the end of the game!</p>
+				<p><h3>➤ What are the upgrades? </h3> At the moment there is 2 kind of upgrades:
+					<br>- Double value : It increases by 1 the amount of cookies you get every click
+					<br>- Multi cookies : It increases the number of time you receive cookies every click
+				</p>
+				<p><h3>➤ Whats is the point of this game?</h3>For the moment, there is not point, besides
+					 reaching a MILION cookies, but in future versions, I'll make the game less boring in the
+					 early-game and I'll add objectives and maybe quests! Watch out tho, the game is pretty
+					 boring in the early-game, but It'll get more enjoyable the more you progress(You will
+					 unlock things that will give your mouse some rest for example)
+				</p>
+				<p><h3>➤ What is currently released/in development? </h3>You can check everything
+					concerning updates andd future content on the <a href="changelog.html" target="_blank"> Changelog! </a>
+				</p>
+			</div>
+
+			<div id="shop">
+				<p> <b> Shop </b>
+				<br><input id="valueButton" type="button" value="More value (0)" onclick="upgradeValue()"> <span id="shopValue"> Cost : 10 </span>
+				<br><input id="multiButton" type="button" value="Multi cookies (0)" onclick="upgradeMulti()" > <span id="shopMulti"> Cost : 64 </span>
+				<br><span> -------- </span>
+				<br><input id="botButton" type="button" value="Cookie bot (0)" onclick="newCookieBot()"> <span id="shopBot"> Cost : 1K </span>
+				<br><input id="quickerButton" disabled type="button" value="Quicker bots (0)" onclick="quickerBot()"> <span id="shopQuicker"> Cost : 100 </span>
+				<br><input id="efficientButton" disabled type="button" value="More efficient cookie bots (0)" onclick="efficientBot()"> <span id="shopEfficient"> Cost : 100 </span>
+				<br><input id="prestigeButton" type="button" value="Prestige! (0)" onclick="prestige()"> <span id="shopPrestige"> Cost : 1 000 000 </span>
+				</p>
+			</div>
+		</div>
+
+		<script language="javascript" src="game.js"> </script>
+
+	</body>
+ </html>

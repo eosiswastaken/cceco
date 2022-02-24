@@ -1,0 +1,14 @@
+body {
+  background-color: #4b3f72;
+  color: #ffc857;
+  font-family: "Lucida Console";
+  font-size: 16px;
+}
+
+#latest {
+  color: red;
+}
+
+.title {
+  color: pink;
+}

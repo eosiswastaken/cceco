@@ -1,0 +1,86 @@
+body {
+  background-color: #4b3f72;
+  font-family: "Lucida Console";
+  font-size: 14px;
+}
+
+/* Help menu, multiple paragraphs and h3s */
+#help {
+  width: 600px;
+  border: 3px solid #1b1b37;
+  background: #1f2041;
+  float: right;
+  margin-top: 10px;
+  color: #ffc857;
+  margin-left: 5px;
+  border-radius: 10px 10px 10px 10px;
+  padding: 1px;
+}
+#help p {
+  font-size: 18px;
+  margin-left: 5px;
+}
+#help h3 {
+  text-align: center;
+}
+#help a {
+  color: pink;
+}
+
+/* Cookie zone with cookie image and cookie number span */
+#cookie {
+  float: left;
+  margin-top: 10px;
+  color: #e09600;
+}
+.cookieBots{
+margin-bottom: 10px;
+
+}
+/*
+#cookieClick {
+  animation-name: zoom;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes zoom {
+  from {width: 210px; height: 210px}
+  to {width: 200px; height: 200px}
+}
+*/
+/* Shop, multiple buttons and spans*/
+#shop {
+  float: center;
+  color: #e09600;
+}
+#shop input {
+  border-radius: 2px 8px 8px 8px;
+  border: 4px solid #19647e;
+  background-color: #158191;
+  padding: 1px;
+  transition: background-color 0.7s;
+}
+#shop input:hover {
+  background-color: #19647e;
+}
+
+/* Infobox, only text */
+#info {
+  background-color: black;
+  color: white;
+  font-family: "Lucida Console";
+  border-radius: 10px 10px 10px 10px;
+  padding: 1px;
+}
+
+/* Disable image and text selection */
+.selectDisable {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
